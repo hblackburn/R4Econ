@@ -13,3 +13,5 @@
 * [Principles of Econometrics with R](https://bookdown.org/ccolonescu/RPoE4/) by Constantin Colonescu (2016)
 
 * [Prof. Soledad Prillaman teaching materials](https://www.soledadprillaman.com/teaching-materials) - includes R and Stata code for the same output
+
+* [RStudio cheatsheets] https://www.rstudio.com/resources/cheatsheets/ - includes printable colored "cheatsheets" for several commonly used libraries. 
