@@ -1,5 +1,5 @@
 # R4Econ
-Shared resources for Econ Research Assistants working in R
+Shared resources for Econ Research Assistants and any other Econs working in R
 
 ## To ask a question
 Create an issue
