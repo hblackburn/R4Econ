@@ -15,3 +15,7 @@
 * [Prof. Soledad Prillaman teaching materials](https://www.soledadprillaman.com/teaching-materials) - includes R and Stata code for the same output
 
 * [RStudio cheatsheets](https://www.rstudio.com/resources/cheatsheets/) - includes printable colored "cheatsheets" for several commonly used libraries. 
+
+* [Data Science for Economists](https://github.com/uo-ec607/lectures) by Grant McDermott (University of Oregon). Course material includes lectures on [R language basics](https://raw.githack.com/uo-ec607/lectures/master/04-rlang/04-rlang.html) (written with Stata users in mind), and [regression in R overview](https://raw.githack.com/uo-ec607/lectures/master/08-regression/08-regression.html).
+
+* [PhD Econometrics](https://github.com/edrubin/EC525S19) by Ed Rubin (University of Oregon). PhD course taught in the "Mostly Harmless" tradition with full lecture and lab notes available.
