@@ -22,4 +22,4 @@
 
 * [Using R for Introductory Econometrics](http://urfie.net/read/mobile/index.html#p=1) by Florian Heiss (website, print book also available). A good way to learn a language is to walk through something you already know but with the new language. Heiss' book follows baby Wooldridge, but in R.
 
-* [Some good introductory machine learning resources in R] (https://modernstatisticalworkflow.blogspot.com/2018/01/some-good-introductory-machine-learning.html) by Jim Savage (website). Welcome to the future y'all.
+* [Some good introductory machine learning resources in R](https://modernstatisticalworkflow.blogspot.com/2018/01/some-good-introductory-machine-learning.html) by Jim Savage (website). Welcome to the future y'all.
