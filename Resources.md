@@ -15,3 +15,11 @@
 * [Prof. Soledad Prillaman teaching materials](https://www.soledadprillaman.com/teaching-materials) - includes R and Stata code for the same output
 
 * [RStudio cheatsheets](https://www.rstudio.com/resources/cheatsheets/) - includes printable colored "cheatsheets" for several commonly used libraries. 
+
+* [Packages for Loading Data in R](http://nickchk.com/econometrics.html#Rdata) by Nick Huntington-Klein (website) - A list of packages for downloading / importing data from sources commonly used by economists.
+
+* [Guide to R for SCU Economics Students](https://rpubs.com/wsundstrom/home) by William A. Sundstrom (website) - An introduction to R with an economics focus.
+
+* [Using R for Introductory Econometrics](http://urfie.net/read/mobile/index.html#p=1) by Florian Heiss (website, print book also available). A good way to learn a language is to walk through something you already know but with the new language. Heiss' book follows baby Wooldridge, but in R.
+
+* [Some good introductory machine learning resources in R] (https://modernstatisticalworkflow.blogspot.com/2018/01/some-good-introductory-machine-learning.html) by Jim Savage (website). Welcome to the future y'all.
