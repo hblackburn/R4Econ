@@ -11,7 +11,6 @@ Note that some included packages are not on CRAN and must be installed with `dev
 # Procuring Data
 
 ## APIs for common data sources:
-* [Guide to Client-Side APIs](https://raw.githack.com/uo-ec607/lectures/master/07-web-apis/07-web-apis.html) by Grant McDermott. Guide for using APIs that don't have their own R packages
 * [wbstats](https://cran.r-project.org/web/packages/wbstats/wbstats.pdf) and [data360r](https://tcdata360.worldbank.org/tools/data360r) - World Bank. Also see [ITNr](https://github.com/MatthewSmith430/ITNr) for getting and cleaning World Bank WITS data for trade analysis
 * [tidycensus](https://cran.r-project.org/web/packages/tidycensus/tidycensus.pdf) - US Census and ACS, plus US map shape files
 * [tidyquant](https://cran.r-project.org/web/packages/tidyquant/index.html), [quantmod](https://cran.r-project.org/web/packages/quantmod/index.html), and [fredr](https://cran.r-project.org/web/packages/fredr/vignettes/fredr.html) - Finance data and everything on FRED. Tidyquant and quantmod have access to more sources, but fredr is easier to use. See [this StackExchange question](https://stackoverflow.com/questions/12590180/inflation-adjusted-prices-package) for code that will let you use these to very easily CPI-adjust any data you have
@@ -20,12 +19,13 @@ Note that some included packages are not on CRAN and must be installed with `dev
 * [psidR](https://cran.r-project.org/web/packages/psidR/psidR.pdf)
 * [atus](https://cran.r-project.org/web/packages/atus/atus.pdf)
 * [democracyData](https://xmarquez.github.io/democracyData/index.html) - Democratic institution indicators
-* [politicaldata](https://cran.r-project.org/web/packages/politicaldata/politicaldata.pdf] - US Election results
+* [politicaldata](https://cran.r-project.org/web/packages/politicaldata/politicaldata.pdf) - US Election results
 
 ## APIs for less-common data sources
 * [gtrendsR](https://cran.r-project.org/web/packages/gtrendsR/gtrendsR.pdf) - Google Trends
 * [twitteR](https://cran.r-project.org/web/packages/twitteR/index.html) - Twitter
 * [rsunlight](https://cran.r-project.org/web/packages/rsunlight/rsunlight.pdf) - US bill text for text analysis. Who wants to be Gentzkow?
+* [Guide to Client-Side APIs](https://raw.githack.com/uo-ec607/lectures/master/07-web-apis/07-web-apis.html) by Grant McDermott. Guide for using APIs that don't have their own R packages
 
 ## Also useful:
 * [ipumsr](https://cran.r-project.org/web/packages/ipumsr/vignettes/ipums.html) - not an API, but once you have your own IPUMS extract this will import it
