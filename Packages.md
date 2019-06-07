@@ -57,9 +57,8 @@ Note that some included packages are not on CRAN and must be installed with `dev
 * [glmnet](https://cran.r-project.org/web/packages/glmnet/glmnet.pdf) - Regularized regression
 * [gravity](https://cran.r-project.org/web/packages/gravity/index.html) - Estimation of gravity trade models
 * [ivprobit](https://cran.r-project.org/web/packages/ivprobit/index.html) - Guess what this package does
-* [lfe](https://cran.r-project.org/web/packages/lfe/lfe.pdf) - Focuses on complex fixed-effects models. Can be more powerful 
+* [lfe](https://cran.r-project.org/web/packages/lfe/lfe.pdf) - Focuses on complex fixed-effects models. Can be more powerful than `estimatr` in some contexts
 * [MCMCpack](https://cran.r-project.org/package=MCMCpack) - Package for estimating MCMC models
-than `estimatr` in some contexts
 * [mfx](https://cran.r-project.org/web/packages/mfx/vignettes/mfxarticle.pdf) - Marginal effects for nonlinear models
 * [mlogit](https://cran.r-project.org/web/packages/mlogit/index.html) - Estimates multinomial logit models, including McFadden alternative-specific models
 * [plm](https://cran.r-project.org/web/packages/plm/plm.pdf) - Standard panel data modeling options, including lags
