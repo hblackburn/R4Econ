@@ -22,6 +22,8 @@
 
 * [Data integrity tests in R and Stata](http://www.nickeubank.com/data-integrity-tests-r/) by Nick Eubank - includes guidance on how, when, why to use data integrity tests (e.g. after merge). Website also includes [guidance on doing GIS in R](http://www.nickeubank.com/gis-in-r/).
 
+* [Nick HK's Introduction to Causality](http://www.nickchk.com/econ305.html) using R.
+
 
 ## For Stata Users
 * [R for Stata User](https://www.amazon.com/R-Stata-Users-Statistics-Computing/dp/1441913173) by Muenchen & Hilbe (book) - good for the basics, not for complex regressions or balance tables (you can also find online PDF versions of this instead of buying)
@@ -59,6 +61,7 @@
 
 
 ### Causal Inference
+
 
 
 * [EGAP](https://egap.org/list-methods-guides) multiple series of "10 Things You Need to Know About X".
