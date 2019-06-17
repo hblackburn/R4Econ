@@ -1,4 +1,4 @@
-## R Textbooks 
+## R Textbooks
 * [R for Data Science](https://r4ds.had.co.nz/) is an incredible introductory text regardless of discipline. Mastering the tools in the book will give you the tools to approach most analytic problems. (Note - no regression)
 
 * [Using R for Introductory Econometrics](http://www.urfie.net/) is a companion book to Wooldridge's introductory econometrics book. It doesn't rely on the tidyverse, so it may be a confusing sequel to R4DS, but it is a useful reference for econometric techniques.
@@ -22,6 +22,8 @@
 
 * [Data integrity tests in R and Stata](http://www.nickeubank.com/data-integrity-tests-r/) by Nick Eubank - includes guidance on how, when, why to use data integrity tests (e.g. after merge). Website also includes [guidance on doing GIS in R](http://www.nickeubank.com/gis-in-r/).
 
+* [Nick HK's Introduction to Causality](http://www.nickchk.com/econ305.html) using R.
+
 
 ## For Stata Users
 * [R for Stata User](https://www.amazon.com/R-Stata-Users-Statistics-Computing/dp/1441913173) by Muenchen & Hilbe (book) - good for the basics, not for complex regressions or balance tables (you can also find online PDF versions of this instead of buying)
@@ -42,14 +44,39 @@
 
 ## Other
 
-* [RStudio cheatsheets](https://www.rstudio.com/resources/cheatsheets/) - includes printable colored "cheatsheets" for several commonly used libraries. 
+* [RStudio cheatsheets](https://www.rstudio.com/resources/cheatsheets/) - includes printable colored "cheatsheets" for several commonly used libraries.
 
 * [Some good introductory machine learning resources in R](https://modernstatisticalworkflow.blogspot.com/2018/01/some-good-introductory-machine-learning.html) by Jim Savage (website). Welcome to the future y'all.
 
-* The [CRAN task view for econometrics](https://cran.r-project.org/web/views/Econometrics.html) is thorough. CRAN task views are an essential resource for domain-specific R. 
+* The [CRAN task view for econometrics](https://cran.r-project.org/web/views/Econometrics.html) is thorough. CRAN task views are an essential resource for domain-specific R.
 
 * The Urban Institute has its own website for reference and sharing code called [R Programming at the Urban Institute](https://ui-research.github.io/r-at-urban/). It doesn't contain a lot of information about modeling, but it's useful for our research assistants. We're adding more content all of the time! We'll probably add some modeling information in the future. Requests and pull requests welcome!
 
-* [Geocomputation with R](https://geocompr.robinlovelace.net/) is a great place to start. It begins with an introduction to the most common spatial data types, covers operations in the burgeoning sf package, and even extends to modeling and cross validation in mlr. My sense is that many people favor R for the visualization and analysis of spatial data. 
+* [Geocomputation with R](https://geocompr.robinlovelace.net/) is a great place to start. It begins with an introduction to the most common spatial data types, covers operations in the burgeoning sf package, and even extends to modeling and cross validation in mlr. My sense is that many people favor R for the visualization and analysis of spatial data.
 
 * Finally, the R community is amazing. #rstats on twitter is a useful resource! So are local user groups!
+
+
+[Econometrics by Simulation](http://www.econometricsbysimulation.com/p/r.html) explains several econometrics concepts using simulations in R.
+
+
+### Causal Inference
+
+
+
+* [EGAP](https://egap.org/list-methods-guides) multiple series of "10 Things You Need to Know About X".
+
+* [DAGs in R](https://cran.r-project.org/web/packages/ggdag/vignettes/intro-to-dags.html) by Malcolm Barrett.
+
+
+#### RDD  
+
+* [Jose M. Fernandez](https://rpubs.com/cuborican/RDD) intro to RDD using R.  
+
+
+#### PSM  
+* [Jacob Simmering](http://jacobsimmering.com/2015/04/15/PropensityScoreModels/) blog post on the problems of using PSM.  
+
+#### Various  
+
+[Surviving Graduate Econometrics with R](https://thetarzan.wordpress.com/category/surviving-graduate-econometrics-with-r/) by Kevin Goulding  
