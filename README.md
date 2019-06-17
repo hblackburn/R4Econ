@@ -7,7 +7,7 @@ Shared resources for Econ Research Assistants and any other Econs working in R
 1. Clearly describe what you need to know and provide as much context or even code as needed
 
 ## To contribute to R4Econ
-1. Read our contributing guidelines (includes resources on how to do the following in GitHub)
+1. Read our [contributing guidelines](Contributing.md) (includes resources on how to do the following in GitHub)
 1. Fork this repository  
 1. Create a new branch
 1. Make edits in the new branch
