@@ -1,3 +1,12 @@
+---
+title: "Resources to Learn R"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{resources_to_learn_r}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
 ## R Textbooks
 
 * [R for Data Science](https://r4ds.had.co.nz/) is an incredible introductory text regardless of discipline. Mastering the tools in the book will give you the tools to approach most analytic problems. (Note - no regression)

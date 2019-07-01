@@ -1,4 +1,11 @@
-----
+---
+title: "Useful Packages"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{useful_packages}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
 # R Packages for Econs and Stata Emigrees
 
 There are more R packages than stars in the sky. But many of them are written without economics in mind. There are also just some things you miss about Stata, and being able to do them in R would make things so much easier!
@@ -6,6 +13,9 @@ There are more R packages than stars in the sky. But many of them are written wi
 This page will not attempt to list every potentially useful package under the sun, but will try to cover things that econs may find useful. Please do not add packages to this list if you don't think there's a reasonable chance they could be used in an economics paper.
 
 Note that some included packages are not on CRAN and must be installed with `devtools::install_github()`.
+
+
+# Procuring Data
 
 ## APIs for common data sources:
 * [wbstats](https://cran.r-project.org/web/packages/wbstats/wbstats.pdf) and [data360r](https://tcdata360.worldbank.org/tools/data360r) - World Bank. Also see [ITNr](https://github.com/MatthewSmith430/ITNr) for getting and cleaning World Bank WITS data for trade analysis
@@ -27,25 +37,21 @@ Note that some included packages are not on CRAN and must be installed with `dev
 ## Also useful:
 * [ipumsr](https://cran.r-project.org/web/packages/ipumsr/vignettes/ipums.html) - not an API, but once you have your own IPUMS extract this will import it
 
-
-## Loading data into R
-
-* [haven](https://cran.r-project.org/web/packages/haven/index.html) and [readxl](https://cran.r-project.org/web/packages/readxl/index.html) - Load in foreign data types from other main statistics packages (haven), or Excel (readxl). If those don't cover your types maybe try [foreign](https://cran.r-project.org/web/packages/foreign/foreign.pdf).
-* [reshape2](https://cran.r-project.org/web/packages/reshape2/reshape2.pdf) - There are many different R reshape (wide-to-long and long-to-wide) functions. Base-`reshape`, `melt`/`cast`/`dcast`, `gather`/`spread`, I like the new `pivot_wider`/`pivot_longer` functions in the dev version of `tidyr`.
-
-## Cleaning data
+# Cleaning and Working with Data
 
 * [dplyr](https://dplyr.tidyverse.org/) (by itself or as part of the tidyverse package) - If you are coming to R from pretty much any other statistics package, especially Stata, you will find this a vastly easier and more familiar way to manipulate and clean data than base R. Also see [tidyr](https://www.rdocumentation.org/packages/tidyr/versions/0.8.3) and [purrr](https://cran.r-project.org/web/packages/purrr/purrr.pdf) for more useful, linked, functions, and [dbplyr](https://cran.r-project.org/web/packages/dbplyr/index.html) for working with on-disk databases.
 * [data.table](https://cran.r-project.org/web/packages/data.table/index.html) - Better performance on large data than `dplyr`, and has grouping naturally built in. Does require you to learn its rather-different syntax. See [this handy guide](https://atrebas.github.io/post/2019-03-03-datatable-dplyr/) comparing the two, and making the case for `data.table`
- Take your pick.
+* [haven](https://cran.r-project.org/web/packages/haven/index.html) and [readxl](https://cran.r-project.org/web/packages/readxl/index.html) - Load in foreign data types from other main statistics packages (haven), or Excel (readxl). If those don't cover your types maybe try [foreign](https://cran.r-project.org/web/packages/foreign/foreign.pdf).
+* [reshape2](https://cran.r-project.org/web/packages/reshape2/reshape2.pdf) - There are many different R reshape (wide-to-long and long-to-wide) functions. Base-`reshape`, `melt`/`cast`/`dcast`, `gather`/`spread`, I like the new `pivot_wider`/`pivot_longer` functions in the dev version of `tidyr`. Take your pick.
+* [asciiSetupReader](https://jacobkap.github.io/asciiSetupReader/) Reads in data that comes as fixed-width ASCII files (.txt or .dat) that have an .sps (SPSS) or .sas (SAS) setup file explaining to the software how to read that file. These file combinations are sometimes referred to as .txt+.sps, .txt+.sas, .dat+.sps, .dat+.sas. 
 * [lubridate](https://cran.r-project.org/web/packages/lubridate/index.html) - Makes working with date variables easier
 * [stringr](https://stringr.tidyverse.org/) - Makes working with string data easier
 * [forcats](https://forcats.tidyverse.org/) - Makes working with factor variables easier
-* [dummies](https://cran.r-project.org/web/packages/dummies/) - Easy creation of dummy variables. Note you can generally avoid *having* to make dummy variables by just doing `factor(variableyouwantdummiesof)` in your regression.
+* [fastDummies](http://jacobkap.github.io/fastDummies/) - Easy creation of dummy variables. Note you can generally avoid *having* to make dummy variables by just doing `factor(variableyouwantdummiesof)` in your regression.
 * [vtable](https://cran.r-project.org/package=vtable) - Restores the "Variable browser" functionality of Stata.
 
-
-## Estimation
+----
+# Estimation
 
 (alphabetized due to numerosity)
 
@@ -69,21 +75,14 @@ Note that some included packages are not on CRAN and must be installed with `dev
 * [zoo](https://cran.r-project.org/web/packages/zoo/index.html) - Even more useful time series tools
 
 
-## Graphs
+# Figures and Tables; Exporting Results
 
 * [ggplot2](https://ggplot2.tidyverse.org/) (by itself or as a part of the tidyverse package) - It looks good, it's not as hard as it seems. Just use it, okay? It looks so, so good. Plus there are about a million extensions of it to make just about any kind of graphics you can imagine. 
-
-## Maps
-
-* [ggmap](https://cran.r-project.org/web/packages/ggmap/ggmap.pdf) - Mapping utility for use with `ggplot`.
-* [mapdata](https://www.rdocumentation.org/packages/mapdata/versions/2.3.0) - What, were you going to draw the thing yourself?
-* [fiftystater](https://github.com/cran/fiftystater) - This package exists just for the purpose of making fifty-state US maps, specifically for the purpose of moving Alaska and Hawaii where you can see them
-
-## Producing Statistics Tables
-
+* [rmarkdown](https://cran.r-project.org/web/packages/rmarkdown/index.html) - For creating reproducible notebooks and presentations with your results
 * [stargazer](https://cran.r-project.org/web/packages/stargazer/stargazer.pdf) - Makes summary statistics tables and regression tables for text, HTML (which can be copy-pasted to Word), or LaTeX that look exactly like an economist would expect them to. 
 * [huxtable](https://cran.r-project.org/web/packages/huxtable/index.html) - A little harder to use than `stargazer` and doesn't adhere to economics standards (you'll probably at least be changing the significance stars), but works with some of the modern data/regression types that `stargazer` won't.
 
-## Writing documents 
-
-* [rmarkdown](https://cran.r-project.org/web/packages/rmarkdown/index.html) - For creating reproducible notebooks and presentations with your results
+## Maps
+* [ggmap](https://cran.r-project.org/web/packages/ggmap/ggmap.pdf) - Mapping utility for use with `ggplot`.
+* [mapdata](https://www.rdocumentation.org/packages/mapdata/versions/2.3.0) - What, were you going to draw the thing yourself?
+* [fiftystater](https://github.com/cran/fiftystater) - This package exists just for the purpose of making fifty-state US maps, specifically for the purpose of moving Alaska and Hawaii where you can see them
