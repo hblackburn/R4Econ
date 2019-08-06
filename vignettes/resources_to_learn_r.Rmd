@@ -69,17 +69,17 @@ vignette: >
 
 * [Geocomputation with R](https://geocompr.robinlovelace.net/) is a great place to start. It begins with an introduction to the most common spatial data types, covers operations in the burgeoning sf package, and even extends to modeling and cross validation in mlr. My sense is that many people favor R for the visualization and analysis of spatial data.
 
+* [Econometrics by Simulation](http://www.econometricsbysimulation.com/p/r.html) explains several econometrics concepts using simulations in R.
+
 * Finally, the R community is amazing. #rstats on twitter is a useful resource! So are local user groups!
 
-
-[Econometrics by Simulation](http://www.econometricsbysimulation.com/p/r.html) explains several econometrics concepts using simulations in R.
 
 ## Project management 
 
 * [Happy Git and GitHub for the useR](https://happygitwithr.com/) is a beginner introduction to using Git with R.
 
 * Code style guides: 
-  - [tidyverse](https://style.tidyverse.org/)
+  - [tidyverse style guide](https://style.tidyverse.org/)
   - [Google R style guide](https://google.github.io/styleguide/Rguide.xml)
 
 * Some advice on project workflow: [What They Forgot to Teach You About R](https://whattheyforgot.org/index.html)
