@@ -55,7 +55,7 @@ vignette: >
 
 ## Data Visualization 
 
-* [Data Visualization: A practical introduction](http://socviz.co/) is an introduction to best practices in data visualization using `ggplot2`. It's also an introduction tutorial to R! 
+* [Data Visualization: A Practical Introduction](http://socviz.co/) is an introduction to best practices in data visualization using `ggplot2`. It's also an introduction tutorial to R! 
 
 ## Other
 
