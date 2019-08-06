@@ -53,6 +53,9 @@ vignette: >
 
 * [Packages for Loading Data in R](http://nickchk.com/econometrics.html#Rdata) by Nick Huntington-Klein (website) - A list of packages for downloading / importing data from sources commonly used by economists.
 
+## Data Visualization 
+
+* [Data Visualization: A practical introduction](http://socviz.co/) is an introduction to best practices in data visualization using `ggplot2`. It's also an introduction tutorial to R! 
 
 ## Other
 
@@ -71,15 +74,23 @@ vignette: >
 
 [Econometrics by Simulation](http://www.econometricsbysimulation.com/p/r.html) explains several econometrics concepts using simulations in R.
 
+## Project management 
+
+* [Happy Git and GitHub for the useR](https://happygitwithr.com/) is a beginner introduction to using Git with R.
+
+* Code style guides: 
+  - [tidyverse](https://style.tidyverse.org/)
+  - [Google R style guide](https://google.github.io/styleguide/Rguide.xml)
+
+* Some advice on project workflow: [What They Forgot to Teach You About R](https://whattheyforgot.org/index.html)
 
 ### Causal Inference
-
-
 
 * [EGAP](https://egap.org/list-methods-guides) multiple series of "10 Things You Need to Know About X".
 
 * [DAGs in R](https://cran.r-project.org/web/packages/ggdag/vignettes/intro-to-dags.html) by Malcolm Barrett.
 
+* Scott Cunningham's [Causal Inference: The Mixtape](http://scunning.com/mixtape.html) 
 
 #### RDD  
 
